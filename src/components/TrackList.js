@@ -1,6 +1,7 @@
 import React from 'react';
+import { FaHeart, FaRegHeart } from 'react-icons/fa';
 
-function TrackList({ tracks }) {
+function TrackList({ tracks, toggleLikeTrack, likedTracks }) {
   return (
     <div className="container mt-4">
       <div className="row">
@@ -11,9 +12,7 @@ function TrackList({ tracks }) {
               <div className="card-body">
                 <h5 className="card-title">{track.name}</h5>
                 <p className="card-text">Artist: {track.album.artists[0].name}</p>
-                <p className="card-text">
-            Release date: {track.album.release_date}
-          </p>
+                <p className="card-text">Release date: {track.album.release_date}</p>
                 <audio src={track.preview_url} controls className="w-100"></audio>
                 <button
                   className="btn btn-success mt-2 ms-2"
@@ -21,7 +20,12 @@ function TrackList({ tracks }) {
                 >
                   Download ringtone
                 </button>
-
+                <button
+                  className="like-btn"
+                  onClick={() => toggleLikeTrack(track)}
+                >
+                  {likedTracks.some(t => t.id === track.id) ? <FaHeart /> : <FaRegHeart />} 
+                </button>
               </div>
             </div>
           </div>
