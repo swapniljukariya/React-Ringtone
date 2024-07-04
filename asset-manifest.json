@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Ringtone/static/css/main.557db3ee.css",
-    "main.js": "/React-Ringtone/static/js/main.6c197c9d.js",
+    "main.css": "/React-Ringtone/static/css/main.72c53965.css",
+    "main.js": "/React-Ringtone/static/js/main.3600db71.js",
     "index.html": "/React-Ringtone/index.html",
-    "main.557db3ee.css.map": "/React-Ringtone/static/css/main.557db3ee.css.map",
-    "main.6c197c9d.js.map": "/React-Ringtone/static/js/main.6c197c9d.js.map"
+    "main.72c53965.css.map": "/React-Ringtone/static/css/main.72c53965.css.map",
+    "main.3600db71.js.map": "/React-Ringtone/static/js/main.3600db71.js.map"
   },
   "entrypoints": [
-    "static/css/main.557db3ee.css",
-    "static/js/main.6c197c9d.js"
+    "static/css/main.72c53965.css",
+    "static/js/main.3600db71.js"
   ]
 }
