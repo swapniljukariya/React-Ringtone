@@ -2,10 +2,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   
+  
 }
 .navbar{
 display: flex;
-  flex-direction: column;
+
   align-items: center;
   justify-content: center;
 
@@ -16,6 +17,7 @@ display: flex;
   font-weight: bold;
  
   height: 10vh;
+  background-color: gray;
 
 }
 .input-text{
@@ -50,11 +52,23 @@ footer{
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   padding: 4em;
-  height: 25vh;
+  height: 35vh;
+  margin-top: 20vh;
+background-color: rgb(231, 231, 231);
 
-  
 }
 .github-icon{
   height: 12vh;
   width: 10vw;
+  
+  
+}
+.playlist{
+  height: 31vh;
+
+}
+.form-control{
+  border: 1px solid black;
+  width: 10vw;
+
 }
